@@ -1,41 +1,56 @@
-# Footnote Format
+Footnote Format
 Last Updated: December 22, 2025
 
-Footnote Format is a Google Docs add-on. It allows users to edit the font family and font size of their document footnotes. Users run the add-on script, which opens a sidebar. The sidebar allows users to select a font families, a font size, and toggle whether or not the changes should apply to all tabs (when unchecked, the changes only apply to the current tab). The user can then press "Apply Changes", which will apply the chosen formatting to the chosen footnotes. Thats it!
+Footnote Format is a lightweight productivity add-on for Google Docs designed to give users the ability to apply footnote styling in bulk.
 
-# Privacy Policy
-Privacy Policy for FootnoteFormat 
+Key Features
+Font Customization: Select from a curated list of font families.
 
-Introduction This Privacy Policy describes how FootnoteFormat handles information when you use the FootnoteFormat Google Docs Add-on (the "Add-on"). We are committed to protecting your privacy and ensuring a transparent user experience.
+Size Control: Set precise font sizes for footnote text.
 
-Information Collection and Use No Personal Data Collection: The Add-on does not collect, store, or transmit any personal information, including names, email addresses, or account details.
+Flexible Scope: Apply changes to the current tab only or across all tabs in a document.
 
-No Document Data Collection: The Add-on only accesses the document currently open in Google Docs to perform its core function: formatting footnotes. None of the content within your documents is ever saved, shared, or transmitted to any external servers. All processing happens locally within the Google Workspace environment.
+Clean Sidebar UI: Simple, intuitive controls that stay out of the way while you work.
 
-Permissions (OAuth Scopes) The Add-on requests only the minimum permissions necessary to function. These are:
-View and manage documents that this application has been installed in (.../auth/documents.currentonly): This allows the Add-on to read and format the footnotes in the specific document you are currently working on. It cannot access any other files in your Google Drive.
+Privacy Policy
+This Privacy Policy describes how Footnote Format ("the Add-on") handles information. We are committed to transparency and the protection of your digital workspace.
 
-Display and run third-party web content in prompts and sidebars from within Google applications (.../auth/script.container.ui): This allows the Add-on to show the user interface (the sidebar) that you use to trigger the footnote formatting.
+1. Data Collection & Privacy
+No Personal Data: The Add-on does not collect, store, or transmit any personal information (names, emails, or account details).
 
-Third-Party Sharing We do not share any data with third parties. There is no background tracking or analytics involved in this Add-on.
+No Document Content Storage: While the Add-on interacts with your document to format footnotes, none of your document's content is ever saved, shared, or transmitted to external servers. All processing occurs locally within the Google Apps Script environment.
 
-Data Retention Because we do not collect any data, we do not store or retain any user data.
+2. Permissions (OAuth Scopes)
+To function, Footnote Format requests the following minimal permissions:
 
-Changes to This Policy We may update this Privacy Policy from time to time. Any changes will be reflected by the "Last Updated" date at the top of this page.
+.../auth/documents.currentonly: Allows the Add-on to read and style footnotes in the active document. It cannot see or modify other files in your Google Drive.
 
-# Terms of Service
-Terms of Service for Footnote Format 
+.../auth/script.container.ui: Allows the Add-on to display the sidebar interface where you select your formatting options.
 
-Acceptance of Terms By installing and using the FootnoteFormat Google Docs Add-on (the "Add-on"), you agree to be bound by these Terms of Service. If you do not agree, please uninstall the Add-on.
+3. Google API Disclosure
+Footnote Format's use and transfer of information received from Google APIs to any other app will adhere to Google API Services User Data Policy, including the Limited Use requirements.
 
-Description of Service The Add-on is a productivity tool designed to assist with formatting footnotes within Google Docs. It is provided as a convenience to the user.
+4. Third-Party Sharing & Retention
+Zero Sharing: We do not share data with third parties. There is no background tracking, advertising, or analytics involved.
 
-Use of the Add-on You are granted a non-exclusive, non-transferable right to use the Add-on for personal or professional purposes.
+No Retention: Since we do not collect data, we do not store or retain any user information.
 
-You agree not to use the Add-on for any unlawful activities or in any way that violates Google’s Workspace Terms of Service.
+Terms of Service
+1. Acceptance of Terms
+By installing and using Footnote Format, you agree to these Terms of Service. If you do not agree, please uninstall the Add-on.
 
-Disclaimer of Warranties The Add-on is provided "AS IS" and "AS AVAILABLE." We make no warranties, express or implied, regarding the reliability, accuracy, or fitness of the tool for a particular purpose. While we strive to ensure the Add-on works correctly, we do not guarantee that it will be error-free or that it will not accidentally alter document formatting in unintended ways.
+2. Description of Service
+Footnote Format is provided as a productivity tool to assist with document styling. We provide the software "as-is" to enhance your Google Docs workflow.
 
-Limitation of Liability In no event shall the developer be liable for any damages (including, without limitation, loss of data or profit) arising out of the use or inability to use the Add-on, even if notified of the possibility of such damage. Always maintain a backup of your important documents.
+3. User Responsibilities
+Permitted Use: You may use the Add-on for personal or professional purposes.
 
-Changes to Terms We reserve the right to modify these terms at any time. Continued use of the Add-on constitutes acceptance of the updated terms.
+Compliance: You agree not to use the Add-on for unlawful activities or in violation of Google’s Workspace Terms of Service.
+
+4. Disclaimers & Limitations
+"As-Is" Warranty: We strive for perfection, but the Add-on is provided without warranties of any kind. We do not guarantee it will be error-free.
+
+Liability: The developer shall not be liable for any damages (such as loss of data) arising from the use of this tool. Users are encouraged to maintain backups of important documents.
+
+5. Updates
+We reserve the right to modify these terms. Continued use of the Add-on constitutes acceptance of any updated terms.
