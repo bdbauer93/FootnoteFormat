@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <style>
+      body { font-family: sans-serif; padding: 15px; line-height: 1.5; }
+      select, input { width: 100%; padding: 8px; margin: 10px 0 20px 0; box-sizing: border-box; }
+      button { width: 100%; padding: 10px; background-color: #4285f4; color: white; border: none; cursor: pointer; border-radius: 4px; }
+      button:hover { background-color: #357ae8; }
+    </style>
+  </head>
+  <body>
+    <label>Select Font Family:</label>
+    <select id="font">
+      <option value="Arial">Arial</option>
+      <option value="Times New Roman">Times New Roman</option>
+      <option value="Roboto">Roboto</option>
+      <option value="Georgia">Georgia</option>
+      <option value="Courier New">Courier New</option>
+      <option value="Verdana">Verdana</option>
+    </select>
+
+    <label>Enter Font Size:</label>
+    <input type="number" id="size" value="11" min="1" max="100">
+
+    <button onclick="runScript()">Apply Changes</button>
+
+<script>
+  function runScript() {
+    const config = {
+      font: document.getElementById('font').value,
+      size: document.getElementById('size').value
+    };
+    
+    // We remove the alert() here because the "Toast" appears in the Doc itself
+    google.script.run
+      .withFailureHandler(err => {
+        // We still use alert for errors so you don't miss them
+        alert("Error: " + err.message); 
+      })
+      .applyFootnoteFormatting(config);
+  }
+</script>
+  </body>
+</html>
