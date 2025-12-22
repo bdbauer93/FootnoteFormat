@@ -1,8 +1,10 @@
 # Footnote Format
+Last Updated: December 22, 2025
+
 Footnote Format is a Google Docs add-on. It allows users to edit the font family and font size of their document footnotes. Users run the add-on script, which opens a sidebar. The sidebar allows users to select a font families, a font size, and toggle whether or not the changes should apply to all tabs (when unchecked, the changes only apply to the current tab). The user can then press "Apply Changes", which will apply the chosen formatting to the chosen footnotes. Thats it!
 
 # Privacy Policy
-Privacy Policy for FootnoteFormat Last Updated: December 22, 2025
+Privacy Policy for FootnoteFormat 
 
 Introduction This Privacy Policy describes how FootnoteFormat handles information when you use the FootnoteFormat Google Docs Add-on (the "Add-on"). We are committed to protecting your privacy and ensuring a transparent user experience.
 
@@ -22,7 +24,7 @@ Data Retention Because we do not collect any data, we do not store or retain any
 Changes to This Policy We may update this Privacy Policy from time to time. Any changes will be reflected by the "Last Updated" date at the top of this page.
 
 # Terms of Service
-Terms of Service for FootnoteFormat Effective Date: December 22, 2025
+Terms of Service for Footnote Format 
 
 Acceptance of Terms By installing and using the FootnoteFormat Google Docs Add-on (the "Add-on"), you agree to be bound by these Terms of Service. If you do not agree, please uninstall the Add-on.
 
