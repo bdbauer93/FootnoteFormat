@@ -1,7 +1,7 @@
 # Footnote Format
 **Last Updated:** December 22, 2025
 
-Footnote Format is a lightweight productivity add-on for Google Docs designed to give users granular control over footnote styling—a feature often missing in standard document settings.
+Footnote Format is a lightweight productivity add-on for Google Docs designed to give users control over bulk footnote styling.
 
 ### Key Features
 * **Font Customization:** Select from a curated list of font families.
