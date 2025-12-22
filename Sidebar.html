@@ -23,19 +23,23 @@
     <label>Enter Font Size:</label>
     <input type="number" id="size" value="11" min="1" max="100">
 
+    <div style="display: flex; align-items: center; margin-bottom: 20px;">
+      <input type="checkbox" id="allTabs" style="width: auto; margin: 0 10px 0 0;">
+      <label for="allTabs" style="cursor: pointer;">Apply to all tabs</label>
+    </div>
+
     <button onclick="runScript()">Apply Changes</button>
 
 <script>
   function runScript() {
     const config = {
       font: document.getElementById('font').value,
-      size: document.getElementById('size').value
+      size: document.getElementById('size').value,
+      allTabs: document.getElementById('allTabs').checked
     };
     
-    // We remove the alert() here because the "Toast" appears in the Doc itself
     google.script.run
       .withFailureHandler(err => {
-        // We still use alert for errors so you don't miss them
         alert("Error: " + err.message); 
       })
       .applyFootnoteFormatting(config);
