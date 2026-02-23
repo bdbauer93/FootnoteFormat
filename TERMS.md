@@ -4,7 +4,7 @@
 By installing and using Footnote Format, you agree to these Terms of Service. If you do not agree, please uninstall the Add-on.
 
 ### 2. Description of Service
-Footnote Format is provided as a productivity tool to assist with document styling. We provide the software "as-is" to enhance your Google Docs workflow.
+Footnote Format is provided as a productivity tool to assist with document styling. We provide the software "as-is" to enhance your Google Docs™ workflow.
 
 ### 3. User Responsibilities
 * **Permitted Use:** You may use the Add-on for personal or professional purposes.
